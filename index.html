@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bwin</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplebar/5.3.5/simplebar.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__container container">
+        <div class="main__logo">
+          <img src="images/icons/logo.svg" alt="Логотип." />
+        </div>
+        <div class="main__wrapper">
+          <div class="main__text">
+            <h1 class="main__title">
+              <span>100%</span>
+              <span>страховка</span>
+              <span>первой ставки</span>
+            </h1>
+            <p class="main__dsc">
+              <span>Cтань клиентом bwin и получи фрибет</span>
+              <span>на сумму первой ставки, если она не сыграет</span>
+            </p>
+            <button id="play" class="main__btn">Играть без риска</button>
+          </div>
+          <div class="main__img">
+            <img
+              src="images/player.png"
+              type="image/webp"
+              alt="Футбольный игрок"
+            />
+          </div>
+        </div>
+        <div class="main__footer">
+          <ul class="main__markets">
+            <li>
+              <a href=""
+                ><img src="images/icons/app store.svg" alt="Эпл стор."
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="images/icons/google.svg" alt="Гугл маркет."
+              /></a>
+            </li>
+          </ul>
+          <button id="rules" class="main__rules">Правила и условия</button>
+          <ul class="main__teams">
+            <li>
+              <img src="images/icons/atletico.png" type="image/webp" alt="" />
+            </li>
+            <li>
+              <img src="images/icons/bvb.png" type="image/webp" alt="" />
+            </li>
+            <li>
+              <img src="images/icons/inter.png" type="image/webp" alt="" />
+            </li>
+            <li>
+              <img src="images/icons/valencia.png" type="image/webp" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <div id="popup" class="popup hide-show">
+      <div class="popup__overlay"></div>
+      <div class="popup__body">
+        <button id="close" class="popup__close">
+          <span></span><span></span>
+        </button>
+        <div id="content" class="popup__content">
+          <div class="popup__item">
+            <div class="popup__title">Правила и условия</div>
+            <p class="popup__text">
+              Букмекерская контора Bwin предлагает всем своим новым клиентам
+              беспроигрышную сделку. Если ваша первая ставка на сайте букмекера
+              окажется неудачной, компания вернет проигранную сумму в полном
+              объеме в качестве фрибета. Этот бонус можно использовать для
+              заключения нового пари, чистый выигрыш с которого достанется вам.
+              Правда, у кэшбека Bwin есть ограничение – максимальная сумма,
+              которую готов компенсировать букмекер, равна 2000 рублей.
+            </p>
+          </div>
+          <div class="popup__item">
+            <div class="popup__title">Как это работает</div>
+            <ul class="popup__text">
+              <li>
+                <span></span> Вы регистрируетесь на сайте БК Bwin и проходите
+                процедуру идентификации личности
+              </li>
+              <li><span></span> Делаете первую ставку на реальные деньги</li>
+              <li>
+                <span></span> Если проигрываете, получаете свои деньги назад в
+                течение 30 минут с момента расчета
+              </li>
+              <li>
+                <span></span> Условия акции распространяются на все типы пари,
+                кроме «суперкоэффициентов» и «комбо+»
+              </li>
+              <li>
+                <span></span> Полученный фрибет нужно использовать в течение 7
+                дней с момента его предоставления
+              </li>
+            </ul>
+          </div>
+          <div class="popup__item">
+            <div class="popup__title">Важные правила</div>
+            <ul class="popup__text">
+              <li>
+                <span></span> В акции могут участвовать только новые
+                пользователи или пользователи, которые до этого не делали ни
+                одной ставки
+              </li>
+              <li>
+                <span></span> Фрибет можно использовать только в мобильных
+                приложениях Bwin для iOS и Android
+              </li>
+              <li>
+                <span></span> Один игрок может получить только один фрибет
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplebar/5.3.5/simplebar.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
